@@ -1,5 +1,3 @@
-![](RackMultipart20210203-4-tzjnq9_html_19187a0156b707aa.png)
-
 ## 1. Pesan Rahasia
 
 Tono dan Tini mengembangkan metode enkripsi khusus sehingga mereka dapat bertukar pesan tanpa takut disadap. Berikut adalah caranya: `L` adalah panjang pesan asli, dan `M` menjadi luas bujur sangkar terkecil yang lebih besar dari atau sama dengan `L`. Tambahkan `(M-L)` dengan tanda bintang untuk pesan (jika memang masih ada ruang kosong), memberikan pesan total dengan panjang `M`. Gunakan pesan total ini untuk mengisi tabel ukuran `K x K`, di mana `K x K = M`.
@@ -7,6 +5,8 @@ Tono dan Tini mengembangkan metode enkripsi khusus sehingga mereka dapat bertuka
 Mengisi tabel mulai dari di baris atas ke baris bawah, kiri ke kolom kanan di setiap baris. Putar tabel 90 derajat searah jarum jam. Pesan terenkripsi berasal dari membaca pesan mulai dari baris pertama dari tabel diputar, dan menghilangkan setiap tanda bintang.
 
 Misalnya, mengingat pesan asli `akucintakamu` memiliki panjang pesan `L = 12`. Dengan demikian pesan total adalah `akucintakamu****`, dengan panjang `M = 16`. Berikut adalah 2 tabel sebelum dan setelah rotasi.
+
+![Image of Programming Table](https://github.com/Opsigo/ops-test-banks/blob/main/images/programming-test-01.png)
 
 Jadi pesan terenkripsinya adalah `kiaankmtuuac`
 
