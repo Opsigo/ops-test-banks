@@ -1,3 +1,5 @@
+![Logo of Opsigo](https://github.com/Opsigo/ops-test-banks/blob/main/images/opsigo-logo.png)
+
 ## 1. Pesan Rahasia
 
 Tono dan Tini mengembangkan metode enkripsi khusus sehingga mereka dapat bertukar pesan tanpa takut disadap. Berikut adalah caranya: `L` adalah panjang pesan asli, dan `M` menjadi luas bujur sangkar terkecil yang lebih besar dari atau sama dengan `L`. Tambahkan `(M-L)` dengan tanda bintang untuk pesan (jika memang masih ada ruang kosong), memberikan pesan total dengan panjang `M`. Gunakan pesan total ini untuk mengisi tabel ukuran `K x K`, di mana `K x K = M`.
